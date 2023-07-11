@@ -1,0 +1,131 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  background-image:url("3.jpg");
+  
+  
+  }
+.container{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  height: 100PX;
+  width: 100%;
+ 
+}
+
+
+
+.logo{font-size: large;
+  color: azure;
+  padding-left: 50px;
+  font-size: 2.5rem;
+}
+span{
+  font-size: 3rem;
+  color: crimson;
+}
+
+.navbar ul li{
+  
+  float: left;
+  padding: 10px 20px ;
+  list-style: none;
+}
+ .navbar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.searchbox{
+  display: flex;
+  width: 600px;
+  height: 38px;
+}
+
+.search{
+  flex: 0.6;
+  border: none;
+  outline: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-size: 16px;
+  padding-left: 7px;
+  font-weight: 100;
+  
+}
+.button
+{padding: 10px 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover{
+  color: red;
+  font-size: large;
+}
+.intro{
+  width: 100%;
+
+}
+.header{
+  display: flex;
+  justify-content:center;
+  
+ 
+}
+.heading{
+  color: azure;
+}
+.form{
+  padding-top: 150px ;
+  padding-right: 150px;
+
+}
+.type{
+  height: 50px;
+  width: 300px;
+}
+.Fname{
+  border: none;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.email{
+border: none;
+
+
+}
+.Lname{
+  border:none;
+
+}
+.submit:hover{
+  font-size: larger;
+
+ 
+}
+.submit{
+ border: none;
+  height: 50px;
+  width: 304px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: azure;
+ 
+  background-color: red;
+
+}
+h4{
+  color: azure;
+  font-size: 1rem;
+}
+
